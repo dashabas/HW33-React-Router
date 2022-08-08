@@ -1,0 +1,35 @@
+.done {
+    background-color: #2e7d32;
+}
+
+li {
+    padding: 5px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    background-color: yellow;
+}
+
+.todo-item {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.todo-item:visited {
+    text-decoration: none;
+}
+
+.btn-group {
+    display: flex;
+    margin-left: 100px;
+}
+
+span {
+    display: flex;
+    align-content: center;
+}
